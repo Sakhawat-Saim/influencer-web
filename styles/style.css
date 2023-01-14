@@ -1,5 +1,32 @@
+/* font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 87px;
+}
+
+.navbar h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 600;
+}
+
